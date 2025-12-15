@@ -1,0 +1,89 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+r",
+        "command": "dart.startDebugging"
+    },
+    // Go
+    {
+        "key": "alt+f",
+        "command": "go.godoctor.extract"
+    },
+
+    {
+        "key": "cmd+\\",
+        "command": "editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    // mysql.workbench
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.terminal.clearSelection",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+    },
+    {
+        "key": "escape",
+        "command": "-workbench.action.terminal.clearSelection",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.terminal.clear"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.output.action.clearOutput"
+    },
+    {
+        "key": "alt+r",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    // {
+    //     "key": "cmd+r",
+    //     "command": "-workbench.action.reloadWindow",
+    //     "when": "isDevelopment"
+    // },
+    // {
+    //     "key": "cmd+r",
+    //     "command": "-workbench.action.debug.start",
+    //     "when": "!inDebugMode"
+    // }
+
+    // code
+    // {
+    //     "key": "alt+r",
+    //     "command": "code-runner.run"
+    // },
+    // {
+    //     "key": "ctrl+alt+n",
+    //     "command": "-code-runner.run"
+    // },
+]
