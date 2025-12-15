@@ -124,13 +124,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "保存(&&S)",
-                        "enabled": false
+                        "label": "保存(&&S)"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "另存为(&&A)...",
-                        "enabled": false
+                        "label": "另存为(&&A)..."
                     },
                     {
                         "id": "saveAll",
@@ -187,13 +185,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "还原文件(&&V)",
-                        "enabled": false
+                        "label": "还原文件(&&V)"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "关闭编辑器(&&C)",
-                        "enabled": false
+                        "label": "关闭编辑器(&&C)"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -232,6 +228,17 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File URL"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File URL From..."
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "issue.copyGithubPermalink",
                                     "label": "复制 GitHub Permalink"
                                 },
@@ -251,13 +258,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "查找(&&F)",
-                        "enabled": false
+                        "label": "查找(&&F)"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "替换(&&R)",
-                        "enabled": false
+                        "label": "替换(&&R)"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -616,6 +621,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "在组中拆分(&&G)"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "将编辑器移动到新窗口(&&M)"
                                 },
@@ -688,6 +700,10 @@
                         "label": "运行(&&R)"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "测试(&E)"
+                    },
+                    {
                         "id": "workbench.view.extensions",
                         "label": "扩展(&&X)"
                     },
@@ -722,8 +738,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "自动换行(&&W)",
-                        "enabled": false
+                        "label": "自动换行(&&W)"
                     }
                 ]
             },
@@ -740,8 +755,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "上次编辑位置(&&L)",
-                        "enabled": false
+                        "label": "上次编辑位置(&&L)"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1060,13 +1074,11 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "拆分终端(&&S)",
-                        "enabled": false
+                        "label": "拆分终端(&&S)"
                     },
                     {
                         "id": "workbench.action.terminal.newInNewWindow",
-                        "label": "新建终端窗口(&&W)",
-                        "enabled": false
+                        "label": "新建终端窗口(&&W)"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1316,8 +1328,8 @@
                 "userSettingsLabel": "cmd+w"
             },
             "workbench.action.closeWindow": {
-                "label": "Cmd+W",
-                "userSettingsLabel": "cmd+w"
+                "label": "Shift+Cmd+W",
+                "userSettingsLabel": "shift+cmd+w"
             },
             "undo": {
                 "label": "Cmd+Z",
@@ -1388,14 +1400,12 @@
                 "userSettingsLabel": "shift+alt+down"
             },
             "editor.action.moveLinesUpAction": {
-                "label": "⌥⌘【",
-                "isNative": false,
-                "userSettingsLabel": "alt+cmd+[BracketLeft]"
+                "label": "Alt+Cmd+[",
+                "userSettingsLabel": "alt+cmd+["
             },
             "editor.action.moveLinesDownAction": {
-                "label": "⌥⌘】",
-                "isNative": false,
-                "userSettingsLabel": "alt+cmd+[BracketRight]"
+                "label": "Alt+Cmd+]",
+                "userSettingsLabel": "alt+cmd+]"
             },
             "editor.action.insertCursorAbove": {
                 "label": "Ctrl+Shift+Up",
@@ -1486,6 +1496,10 @@
                 "label": "Shift+Cmd+U",
                 "userSettingsLabel": "shift+cmd+u"
             },
+            "workbench.action.terminal.toggleTerminal": {
+                "label": "Ctrl+`",
+                "userSettingsLabel": "ctrl+`"
+            },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
@@ -1497,6 +1511,14 @@
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Cmd+Right",
                 "userSettingsLabel": "ctrl+cmd+right"
+            },
+            "workbench.action.nextEditor": {
+                "label": "Shift+Cmd+]",
+                "userSettingsLabel": "shift+cmd+]"
+            },
+            "workbench.action.previousEditor": {
+                "label": "Shift+Cmd+[",
+                "userSettingsLabel": "shift+cmd+["
             },
             "workbench.action.focusFirstEditorGroup": {
                 "label": "Cmd+1",
@@ -1541,6 +1563,10 @@
             "workbench.action.gotoLine": {
                 "label": "Ctrl+G",
                 "userSettingsLabel": "ctrl+g"
+            },
+            "editor.action.jumpToBracket": {
+                "label": "Shift+Cmd+\\",
+                "userSettingsLabel": "shift+cmd+\\"
             },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
@@ -1587,16 +1613,24 @@
                 "userSettingsLabel": "f5"
             },
             "editor.debug.action.toggleBreakpoint": {
-                "label": "F9",
-                "userSettingsLabel": "f9"
+                "label": "Cmd+\\",
+                "userSettingsLabel": "cmd+\\"
             },
             "editor.debug.action.toggleInlineBreakpoint": {
                 "label": "Shift+F9",
                 "userSettingsLabel": "shift+f9"
             },
+            "workbench.action.terminal.new": {
+                "label": "Ctrl+Shift+`",
+                "userSettingsLabel": "ctrl+shift+`"
+            },
             "workbench.action.terminal.split": {
-                "label": "Ctrl+Shift+5",
-                "userSettingsLabel": "ctrl+shift+5"
+                "label": "Cmd+\\",
+                "userSettingsLabel": "cmd+\\"
+            },
+            "workbench.action.terminal.newInNewWindow": {
+                "label": "Ctrl+Shift+Alt+`",
+                "userSettingsLabel": "ctrl+shift+alt+`"
             },
             "workbench.action.tasks.build": {
                 "label": "Cmd+B",

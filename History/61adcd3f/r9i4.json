@@ -1,0 +1,16 @@
+{
+  "redhat.telemetry.enabled": true,
+  "dart.flutterSdkPath": "/Users/mac/fvm/versions/stable",
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "never",
+  "fittencode.selection.showCodeLens": false,
+  "explorer.confirmDragAndDrop": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "fittencode.languagePreference.displayPreference": "zh-cn",
+  "fittencode.languagePreference.commentPreference": "zh-cn",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

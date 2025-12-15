@@ -1,6 +1,6 @@
 {
   "redhat.telemetry.enabled": true,
-  "dart.flutterSdkPath": "/Users/jobs/Documents/GitHub/Flutter.SDK/flutter",
+  "dart.flutterSdkPath": "/Users/mac/fvm/versions/stable",
   "explorer.confirmDelete": false,
   "git.openRepositoryInParentFolders": "never",
   "fittencode.selection.showCodeLens": false,

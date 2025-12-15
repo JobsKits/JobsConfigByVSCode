@@ -1,0 +1,41 @@
+{
+  "cmake.sourceDirectory": "/Users/jobs/Documents/GitHub/JobsFlutterBaseConfig/jobs_flutter_base_config/linux",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "dart.editImports": "always_use_package_imports",
+  "json.schemaDownload.enable": false,
+  "json.validate.enable": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+  "files.hotExit": "onExitAndWindowClose",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "window.restoreWindows": "all",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.matchBrackets": "always",
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "terminal.integrated.inheritEnv": true,
+  "editor.glyphMargin": true,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#2B314080",
+    "editor.lineHighlightBorder": "#2B3140",
+    "editor.lineHeight": 24,
+    "editor.fontSize": 14,
+    "debugIcon.breakpointForeground": "#FF5A5A",
+    "debugIcon.breakpointDisabledForeground": "#C06F6F",
+    "debugIcon.breakpointUnverifiedForeground": "#FFAA00",
+    "debugIcon.breakpointCurrentStackframeForeground": "#23D17F",
+    "debugIcon.breakpointConditionalForeground": "#FFAA00"
+  },
+  "errorLens.enabled": true,
+  "errorLens.fontStyleItalic": false,
+  "errorLens.errorBackground": "#ff000033", // 红色背景半透明
+  "errorLens.warningBackground": "#ffa50033", // 橙色背景半透明
+  "errorLens.infoBackground": "#0080ff33", // 蓝色背景半透明
+
+  "problems.showCurrentInStatus": true, // 状态栏显示当前行的问题
+  "problems.showCurrentInStatusSeverity": "warning", // 显示级别（error/warning/info）
+  "problems.decorations.enabled": true // 在行号旁边显示小图标
+}
