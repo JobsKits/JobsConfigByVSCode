@@ -7,6 +7,9 @@
         "folders": [
             {
                 "folderUri": "file:///Users/mac/Documents/Gits/JobsBaseConfig/JobsBaseConfig%40JobsFlutterBaseConfigDemo"
+            },
+            {
+                "folderUri": "file:///Users/mac/Documents/Gits/JobsBaseConfig/JobsBaseConfig%40JobsSwiftBaseConfigDemo"
             }
         ],
         "emptyWindows": []
@@ -81,11 +84,34 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "path": "/Users/mac/Documents/Gits/JobsBaseConfig/JobsBaseConfig@JobsSwiftBaseConfigDemo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Gits/JobsBaseConfig/JobsBaseConfig@JobsSwiftBaseConfigDemo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/Users/mac/Documents/Gits/JobsBaseConfig/JobsBaseConfig@JobsFlutterBaseConfigDemo",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/Gits/JobsBaseConfig/JobsBaseConfig@JobsFlutterBaseConfigDemo"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/mac/Documents/Gits/JobsBaseConfig/JobsBaseConfig@JobsSwiftBaseConfigDemo/my_flutter/lib/main.dart",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Gits/JobsBaseConfig/JobsBaseConfig@JobsSwiftBaseConfigDemo/my_flutter/lib/main.dart"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -227,17 +253,6 @@
                         "label": "复制为",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
-                                    "label": "Copy Remote File URL"
-                                },
-                                {
-                                    "id": "gitlens.copyRemoteFileUrlFrom",
-                                    "label": "Copy Remote File URL From..."
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "issue.copyGithubPermalink",
                                     "label": "复制 GitHub Permalink"
@@ -1400,12 +1415,14 @@
                 "userSettingsLabel": "shift+alt+down"
             },
             "editor.action.moveLinesUpAction": {
-                "label": "Alt+Cmd+[",
-                "userSettingsLabel": "alt+cmd+["
+                "label": "⌥⌘【",
+                "isNative": false,
+                "userSettingsLabel": "alt+cmd+[BracketLeft]"
             },
             "editor.action.moveLinesDownAction": {
-                "label": "Alt+Cmd+]",
-                "userSettingsLabel": "alt+cmd+]"
+                "label": "⌥⌘】",
+                "isNative": false,
+                "userSettingsLabel": "alt+cmd+[BracketRight]"
             },
             "editor.action.insertCursorAbove": {
                 "label": "Ctrl+Shift+Up",
@@ -1496,10 +1513,6 @@
                 "label": "Shift+Cmd+U",
                 "userSettingsLabel": "shift+cmd+u"
             },
-            "workbench.action.terminal.toggleTerminal": {
-                "label": "Ctrl+`",
-                "userSettingsLabel": "ctrl+`"
-            },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
@@ -1511,14 +1524,6 @@
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Cmd+Right",
                 "userSettingsLabel": "ctrl+cmd+right"
-            },
-            "workbench.action.nextEditor": {
-                "label": "Shift+Cmd+]",
-                "userSettingsLabel": "shift+cmd+]"
-            },
-            "workbench.action.previousEditor": {
-                "label": "Shift+Cmd+[",
-                "userSettingsLabel": "shift+cmd+["
             },
             "workbench.action.focusFirstEditorGroup": {
                 "label": "Cmd+1",
@@ -1563,10 +1568,6 @@
             "workbench.action.gotoLine": {
                 "label": "Ctrl+G",
                 "userSettingsLabel": "ctrl+g"
-            },
-            "editor.action.jumpToBracket": {
-                "label": "Shift+Cmd+\\",
-                "userSettingsLabel": "shift+cmd+\\"
             },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
@@ -1613,24 +1614,16 @@
                 "userSettingsLabel": "f5"
             },
             "editor.debug.action.toggleBreakpoint": {
-                "label": "Cmd+\\",
-                "userSettingsLabel": "cmd+\\"
+                "label": "F9",
+                "userSettingsLabel": "f9"
             },
             "editor.debug.action.toggleInlineBreakpoint": {
                 "label": "Shift+F9",
                 "userSettingsLabel": "shift+f9"
             },
-            "workbench.action.terminal.new": {
-                "label": "Ctrl+Shift+`",
-                "userSettingsLabel": "ctrl+shift+`"
-            },
             "workbench.action.terminal.split": {
-                "label": "Cmd+\\",
-                "userSettingsLabel": "cmd+\\"
-            },
-            "workbench.action.terminal.newInNewWindow": {
-                "label": "Ctrl+Shift+Alt+`",
-                "userSettingsLabel": "ctrl+shift+alt+`"
+                "label": "Ctrl+Shift+5",
+                "userSettingsLabel": "ctrl+shift+5"
             },
             "workbench.action.tasks.build": {
                 "label": "Cmd+B",
@@ -1660,6 +1653,16 @@
             "statusBarBackground": "#181818",
             "statusBarBorder": "#2b2b2b",
             "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 583,
+            "auxiliaryBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
         }
     },
     "windowsState": {
